@@ -1,5 +1,4 @@
 "use client";  // Adicione esta linha
-
 import React, { useState } from 'react';
 import Image from "next/image";
 import './style.css';
@@ -28,10 +27,30 @@ const Header: React.FC = () => {
             </div>
             <nav className={`nav ${isOpen ? 'open' : ''}`}>
                 <ul>
-                    <li>Início</li>
-                    <li>Produtos</li>
-                    <li>Sobre</li>
-                    <li>Contato</li>
+                <li>
+            <a href="#inicio">
+             Início
+            </a>
+          </li>
+          <li>
+            <a href="#beneficios">
+              Benefícios
+            </a>
+          </li>
+          <li>
+            <a href="#nossos-produtos">
+              Nossos Produtos
+            </a>
+          </li>
+          <li>
+            <a href="#sobre-mim">
+             Sobre Mim
+            </a>
+          </li>
+          <li>
+            <a href="#contato">Contato</a>
+              
+          </li>
                 </ul>
             </nav>
             <Image

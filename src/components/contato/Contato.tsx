@@ -3,7 +3,7 @@ import './style.css';
 
 const Contato: React.FC = () => {
     return (
-        <section className="contato">
+        <section id="contato" className="contato">
 
             <div className="cta-content">
                 <h2 className='titulo-cta'>TRANSFORME SUA CARREIRA COM NOSSOS CURSOS E TREINAMENTOS</h2>

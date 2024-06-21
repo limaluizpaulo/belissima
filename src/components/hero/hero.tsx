@@ -4,7 +4,7 @@ import './style.css'
 
 const Hero: React.FC = () => {
     return (
-        <section className="hero">
+        <section id="inicio" className="hero">
             <img src="/header.jpeg" alt="Produtos" className="hero-image" />
             <h1 className="hero-title">A Potência do Pará <br /> na Beleza Capilar</h1>
             

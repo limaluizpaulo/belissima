@@ -3,7 +3,7 @@ import  './style.css';
 
 const Sobre: React.FC = () => {
     return (
-        <div className='container'>
+        <div id="sobre-mim" className='container'>
             <div className='imageContainer'>
                 <img src="/sobremimsemfundo.jpeg" alt="Minha Imagem" className='image'/>
             </div>

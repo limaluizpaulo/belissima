@@ -3,7 +3,7 @@ import './style.css';
 
 const Beneficios: React.FC = () => {
     return (
-        <section className="beneficios">
+        <section id="beneficios" className="beneficios">
             <h1 className="titulo">Beneficios da Garden Hair</h1>
             <div className="lista">
                 <div className="caixa">
