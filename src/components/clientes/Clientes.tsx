@@ -4,7 +4,7 @@ import './style.css';
 const Clientes: React.FC = () => {
     return (
         <section id="clientes" className="clientes">
-            <h1 className="titulo-clientes">Clientes Satisfeitas</h1>
+            <h1 className="titulo-clientes">Treinamentos</h1>
             <div className="lista-clientes">
                 <div className="caixa-clientes">
                     <img src="/c1.jpeg" alt="Cliente 1" />
