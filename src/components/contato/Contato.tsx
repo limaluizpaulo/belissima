@@ -12,7 +12,7 @@ const Contato: React.FC = () => {
                     <img src="/whatsapp-icon.png" className="whatsapp-icon" />
                     Fale Conosco no WhatsApp
                 </a>
-                <p className="contact-info">Enecir: (93) 9227-8870</p>
+                <p className="contact-info">Enecir: (93) 9227-8870 <br />Distribuidora Autorizada</p>
             </div>
 
         </section>
