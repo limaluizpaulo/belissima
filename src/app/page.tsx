@@ -7,6 +7,7 @@ import Produtos from "@/components/produtos/Produtos";
 import Sobre from "@/components/sobre/sobre";
 import Contato from "@/components/contato/Contato";
 import Footer from "@/components/footer/footer";
+import Clientes from "@/components/clientes/Clientes";
 
 /* Para criar uma landing page baseada na identidade visual do site da Garden Hair Cosméticos e com o objetivo de captar leads para uma vendedora, podemos estruturar a página com as seguintes seções e elementos:
 1. Header com Chamada Atraente
@@ -72,6 +73,7 @@ export default function Home() {
      
       <Produtos />
       <Sobre />
+      <Clientes />
         <Contato />
         <Footer />
        </main>
