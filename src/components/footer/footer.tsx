@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
       </div>
       </div>
       <div className="copy">
-        &copy; {currentYear}
+        &copy; {currentYear} Belíssima Cosméticos. Todos os direitos reservados.
       </div>
     
     </section>

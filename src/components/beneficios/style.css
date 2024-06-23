@@ -42,7 +42,7 @@
 }
 
 .caixa p {
-    font-size: 0.8rem;
+    font-size: 15px;
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -54,6 +54,7 @@
 
     .caixa {
         margin-bottom: 20px;
+        width: 80%;
     }
 
 
