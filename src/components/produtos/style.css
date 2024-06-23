@@ -18,12 +18,10 @@
 }
 
 
-/*
-rosa
-#e30f7d
-azul
-#3f3085
-verde
-#009938
-#3caa39
-*/
+@media screen and (max-width: 768px) {
+    .produtos {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}

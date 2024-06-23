@@ -29,12 +29,15 @@
 }
 
 @media (max-width: 768px) {
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
  
     .bg-image {
         position: fixed;
         top: 0;
-        left: unset;
-        right: 0;
         width: unset;
         height: 100vh;
         z-index: -1;
@@ -49,16 +52,15 @@
     }
 
     .hero-image {
-        width: unset;
-        height: 100vw;
+        width: 100vw;
     }
 
     .hero-title {
         font-size: 2rem;
-        color: white;
+        color: black;
         font-weight: 700;
-        text-align:center;
-        position: absolute;
-        width: 100vh;
+        position: unset;
+        text-align: center;
+
     }
 }

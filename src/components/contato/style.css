@@ -74,6 +74,10 @@
 }
 
 @media screen and (max-width: 768px){
+
+    .contato {
+        height: auto;
+    }
     
     .cta-content {
         margin: auto 20px;

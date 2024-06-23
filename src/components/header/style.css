@@ -53,6 +53,8 @@ li:hover {
     }
     header {
         justify-content: space-between;
+        height: unset;
+        flex-wrap: wrap;
     }
 
     nav {
@@ -89,11 +91,13 @@ li:hover {
 
     .logo {
         order: 2; /* Isso garante que a imagem fique à direita */
+        margin: 0 auto;
     }
 
     .burger {
         order: 1; /* Isso garante que o ícone hambúrguer fique à esquerda */
         margin-right: 15px;
+        
     }
 
     .nav {
