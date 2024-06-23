@@ -75,6 +75,7 @@ li:hover {
 
     .burger {
         display: block;
+        
     }
 
     .burger.open .line1 {
@@ -91,12 +92,15 @@ li:hover {
 
     .logo {
         order: 2; /* Isso garante que a imagem fique à direita */
-        margin: 0 auto;
+        margin: 10px auto;
+        padding: 0 20px;
+        height: 50px;
+        width: auto;
     }
 
     .burger {
         order: 1; /* Isso garante que o ícone hambúrguer fique à esquerda */
-        margin-right: 15px;
+        
         
     }
 
