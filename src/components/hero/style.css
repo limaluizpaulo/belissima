@@ -36,11 +36,13 @@
     }
  
     .bg-image {
-        position: fixed;
-        top: 0;
+        display: none;
+        height: unset;
+        height: unset;
         width: unset;
-        height: 100vh;
-        z-index: -1;
+        position: unset;
+        top: unset;
+        width: unset;
     }
 
     .img-content {
