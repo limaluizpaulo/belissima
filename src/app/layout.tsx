@@ -5,7 +5,7 @@ import { Inter } from "next/font/google";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Belíssiima Cosméticos",
+  title: "Belíssima Cosméticos",
   description: "A Potência do Pará na Beleza Capilar",
 };
 
