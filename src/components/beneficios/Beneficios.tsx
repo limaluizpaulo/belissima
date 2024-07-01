@@ -12,7 +12,7 @@ const Beneficios: React.FC = () => {
     useEffect(() => {
         // Esta função só será executada no lado do cliente, após a montagem do componente
         const handleResize = () => {
-            const src = window.innerWidth < 768 ? { width: '100%', height: 300 } : { width: 853, height: 480 };
+            const src = window.innerWidth < 768 ? { width: 400, height: 300 } : { width: 853, height: 480 };
             setImageSrc(src);
         };
 
