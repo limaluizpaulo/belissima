@@ -24,6 +24,15 @@
     border-radius: 10px;
 }
 
+.descricao{
+    font-size: 1.5rem;
+    color: black;
+    margin: auto;
+    width: 50%;
+    height: 100%;
+
+}
+
 .container-produtos {
     display: flex;
     flex-direction: column;
