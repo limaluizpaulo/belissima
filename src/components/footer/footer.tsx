@@ -31,9 +31,6 @@ const Footer: React.FC = () => {
               <a href="#inicio">Início</a>
             </li>
             <li>
-              <a href="#beneficios">Benefícios</a>
-            </li>
-            <li>
               <a href="#nossos-produtos">Nossos Produtos</a>
             </li>
             <li>

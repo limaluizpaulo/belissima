@@ -1,11 +1,27 @@
 .produtos {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    background-color: #d63384;
     width: 100%;
+    padding: 20px;
+    align-items: center;
+    text-align: center;
 }
 
 .video {
    margin: 10px;
+}
+
+.produto {
+    background-color: rgb(255, 255, 255, 0.5);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.produto img {
+    width: 350px;
+    border-radius: 10px;
 }
 
 .container-produtos {
@@ -22,6 +38,10 @@
     .produtos {
         flex-direction: column;
         align-items: center;
+    }
+
+    .produto {
+        width: 80%;
     }
     
 }

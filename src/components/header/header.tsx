@@ -33,11 +33,6 @@ const Header: React.FC = () => {
             </a>
           </li>
           <li>
-            <a href="#beneficios">
-              Benefícios
-            </a>
-          </li>
-          <li>
             <a href="#nossos-produtos">
               Nossos Produtos
             </a>
