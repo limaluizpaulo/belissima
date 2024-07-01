@@ -19,6 +19,10 @@ const Produtos: React.FC = () => {
   <img src='/24.png' alt='Eko line' />
   <p className="descricao"  >Eko line</p>
   </div>
+  < div className='produto'>
+  <img src='/1.png' alt='Defined curls' />
+  <p className="descricao"  >Defined curls</p>
+  </div>
 </div>
 </div>
  );
