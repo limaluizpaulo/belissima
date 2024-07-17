@@ -70,11 +70,11 @@ export default function Home() {
       <Header />
       <Hero />
       <Beneficios />
-     
+      <Contato />
       <Produtos />
       <Sobre />
       <Clientes />
-        <Contato />
+     
         <Footer />
        </main>
   );
