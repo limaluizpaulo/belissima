@@ -1,0 +1,184 @@
+.countdown-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  width: 100%;
+  height: 100vh;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.left-section,
+.right-section {
+  width: 48%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.title-gardenday {
+  text-shadow: 1px 1px rgb(232, 160, 103);
+  font-size: 36px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: #ffd700;
+}
+
+.title-invest {
+  color: #fff;
+  font-size: 30px;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+  background-color: #1f1e1e;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  height: auto;
+}
+
+.time-block {
+  text-align: center;
+}
+
+.time-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #ffd700;
+}
+
+.time-value {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.event-details {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+}
+
+.event-details li {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.event-details li img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.right-section .offer-text {
+  font-size: 18px;
+  color: rgb(232, 160, 103);
+  margin-bottom: 10px;
+  font-weight: 600;
+  text-align: center; /* Centraliza o texto */
+}
+
+.divider {
+  height: 3px;
+  background-color: #ffd700;
+  width: 50%;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.participate-button {
+  background-color: rgb(232, 160, 103);
+  color: #000;
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.participate-button:hover {
+  background-color: #d89a5c;
+  color: #fff;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 1200px) {
+  .countdown-container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+    margin-left: 0;
+  }
+
+  .offer-text {
+    font-size: 16px;
+  }
+
+  .title-gardenday {
+    font-size: 25px;
+  }
+  .title-invest {
+    margin-top: 50px;
+  }
+
+  .time-title {
+    font-size: 16px;
+  }
+
+  .time-value {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .countdown-container {
+    padding: 0px;
+    height: auto;
+  }
+
+  .timer {
+    height: 10vh;
+    align-items: center;
+  }
+
+  .title-gardenday {
+    font-size: 20px;
+  }
+
+  .time-title {
+    margin-top: 0px;
+    font-size: 12px;
+  }
+
+  .time-value {
+    font-size: 16px;
+  }
+
+  .participate-button {
+    font-size: 16px;
+    padding: 10px 20px;
+  }
+}
