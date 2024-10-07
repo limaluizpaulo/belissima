@@ -19,41 +19,43 @@ const Footer: React.FC = () => {
           <a href="https://www.youtube.com/@GardenHairCosmeticos">
             <img src="/youtube.png" alt="Youtube" />
           </a>
-
           <a href="https://wa.me/559392278870" target="_blank" rel="noopener noreferrer">
-            <img src="/whatsapp.png" className="whatsapp-icon" />
+            <img src="/whatsapp.png" className="whatsapp-icon" alt="WhatsApp" />
           </a>
         </div>
         <div className="Links">
-          <h2>Informações</h2>
+          <h2>Navegação</h2>
           <ul>
             <li>
-              <a href="#inicio">Início</a>
+              <a href="#hero-section">Início</a>
             </li>
             <li>
-              <a href="#nossos-produtos">Nossos Produtos</a>
+              <a href="#about-section">Sobre</a>
             </li>
             <li>
-              <a href="#sobre-mim">Sobre Mim</a>
+              <a href="#event-overview">Informações do Evento</a>
             </li>
             <li>
-              <a href="#contato">Contato</a>
+              <a href="#trainings">Treinamentos</a>
             </li>
-          </ul>
+            <li>
+              <a href="#event-details">O que vai ter neste Evento?</a>
+            </li>
+                    </ul>
         </div>
         <div className="logo">
-          <img src="/logo.png" alt="Logo da Empresa" />
-          <img src="/belissima.png" alt="" />
+          <img src="/logo-dark.png" alt="Logo da Empresa" />
+          <br></br>
+          <img src="/belissima-dark.png" alt="Logo Belíssima Cosméticos" />
         </div>
       </div>
       <div className="copy">
         &copy; {currentYear} Belíssima Cosméticos. Todos os direitos reservados.
       </div>
-    
-        <img className='whatsapp-button' src="/whatsapp-icon.png" alt="WhatsApp" onClick={
-          () => window.open('https://wa.me/559392278870', '_blank')
-        } />
-    
+
+      <img className='whatsapp-button' src="/whatsapp-icon.png" alt="WhatsApp" onClick={
+        () => window.open('https://wa.me/559392278870', '_blank')
+      } />
     </section>
   );
 };

@@ -1,119 +1,40 @@
-header {
+.marqueeWrapper {
+    width: 100%;
+   height: 50px;
+    overflow-x: hidden;
+    background-color: rgb(255, 0, 0); 
+    white-space: nowrap;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    height: 76px;
-    width: 100%;
-    background-color: white;   ;
-}
-
-.logo{
-    margin: 0 50px;
-}
-
-nav {
-    display: flex;
-    flex-direction: row;
-}
-
-ul {
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-li  a{
-    color: #333;
-    margin: 0 15px;
+  }
+  
+  .marqueeContent {
+    display: inline-flex;
+    animation: marquee 20s linear infinite;
+    width: 100vw;
+  }
+  
+  .link {
     font-size: 18px;
-    cursor: pointer;
     text-decoration: none;
-}
-
-li:hover {
+    color: #fff; 
+    font-weight: 900;
+    margin-left: 15px;
+  }
+  
+  .clickHere {
+    color: #ffff00;
+    margin-left: 10px;
     text-decoration: underline;
-}
-
-.burger {
-    display: none;
-    cursor: pointer;
-}
-
-
-
-@media (max-width: 768px) {
-
-    .burger div {
-        width: 25px;
-        height: 3px;
-        background-color: #333;
-        margin: 5px;
-        transition: all 0.3s ease;
+    font-weight: 900; 
+  }
+  
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
     }
-    header {
-        justify-content: space-between;
-        height: unset;
-        flex-wrap: wrap;
+    100% {
+      transform: translateX(-100%); 
     }
-
-    nav {
-        display: none;
-        flex-direction: column;
-        width: 100%;
-        text-align: center;
-        position: absolute;
-        top: 76px;
-        left: 0;
-        background-color: #f8f9fa;
-        z-index: 1;
-    }
-
-    .nav.open {
-        display: flex;
-    }
-
-    .burger {
-        display: block;
-        
-    }
-
-    .burger.open .line1 {
-        transform: rotate(-45deg) translate(-5px, 6px);
-    }
-
-    .burger.open .line2 {
-        opacity: 0;
-    }
-
-    .burger.open .line3 {
-        transform: rotate(45deg) translate(-5px, -6px);
-    }
-
-    .logo {
-        order: 2; /* Isso garante que a imagem fique à direita */
-        margin: 10px auto;
-        padding: 0 20px;
-        height: 50px;
-        width: auto;
-    }
-
-    .burger {
-        order: 1; /* Isso garante que o ícone hambúrguer fique à esquerda */
-        
-        
-    }
-
-    .nav {
-        order: 3; /* Isso garante que o menu apareça abaixo do ícone hambúrguer */
-    }
-
-    .nav ul {
-        flex-direction: column;
-      
-    }
-
-    .nav ul li {
-        margin: 10px 0; /* Ajusta o espaçamento entre os itens do menu quando em lista */
-    }
-}
+  }
+  

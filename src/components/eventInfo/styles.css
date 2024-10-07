@@ -1,0 +1,141 @@
+
+.event-info-container {
+  width: 100%;
+  padding: 50px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.event-title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #ffd700;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+
+.event-subtitle {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.event-bonus-text {
+  font-size: 14px;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #c68642; 
+}
+
+
+.event-benefits {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 1200px;
+  margin-top: 40px;
+}
+
+
+.benefits-left,
+.benefits-right {
+  width: 48%;
+}
+
+.benefits-left ul,
+.benefits-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.benefits-left li,
+.benefits-right li {
+  font-size: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.benefits-left li img,
+.benefits-right li img {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+/* Estilos responsivos para telas menores */
+@media (max-width: 1200px) {
+  .event-info-container {
+    padding: 20px;
+  }
+
+  .event-title {
+    font-size: 28px;
+  }
+
+  .event-subtitle,
+  .event-bonus-text {
+    font-size: 18px;
+  }
+
+  .event-benefits {
+    flex-direction: column;
+    align-items: center;
+   list-style: none;
+  padding: 0;
+  }
+
+  .benefits-left,
+  .benefits-right {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .benefits-left li,
+  .benefits-right li {
+    font-size: 24px;
+    justify-content: center;
+  }
+
+  .benefits-left li img,
+  .benefits-right li img {
+    width: 18px;
+    height: 18px;
+  }
+}
+
+/* Estilos para telas ainda menores (tablet/móvel) */
+@media (max-width: 768px) {
+  .event-title {
+    font-size: 24px;
+  }
+
+  .event-subtitle,
+  .event-bonus-text {
+    font-size: 16px;
+  }
+  .benefits-left,
+  .benefits-right {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .benefits-left li,
+  .benefits-right li {
+    font-size: 16px;
+   width: 100%;
+  }
+
+  .benefits-left li img,
+  .benefits-right li img {
+    width: 16px;
+    height: 16px;
+  }
+}
