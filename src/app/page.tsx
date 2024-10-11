@@ -5,6 +5,7 @@ import Hero from "@/components/hero/hero";
 import Beneficios from "@/components/beneficios/Beneficios";
 import Produtos from "@/components/produtos/Produtos";
 import Sobre from "@/components/sobre/sobre";
+import Cadeira from "@/components/cadeira/cadeira";
 import Contato from "@/components/contato/Contato";
 import Footer from "@/components/footer/footer";
 import Clientes from "@/components/clientes/Clientes";
@@ -30,7 +31,7 @@ export default function Home() {
       <MainSection />
       <Sobre />
       <EventInfo />
-
+      <Cadeira />
       <Clientes />
        <Tecnicos />
       <EventDetails />
