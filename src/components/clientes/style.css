@@ -1,7 +1,6 @@
 .clientes {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
     background-color: white;
     width: 100%;
     height: auto;
@@ -32,7 +31,7 @@
 
 .video-container video {
     width: 100%; 
-    height: 230px;
+    height: 300px;
     border-radius: 10px;
 }
 
@@ -41,20 +40,21 @@
     justify-content: space-around;
     align-items: center;
     flex-direction: row;
-
+    width: 100%;
     margin-top: 20px;
 }
 
 .lista-clientes img {
-    width: 230px;
-    height: 230px;
+    width: 300px;
+    height: 300px;
     border-radius: 10px;
 }
 
 .botoes-compra {
     display: flex;
+    margin: 30px auto;
     justify-content: center;
-    margin-top: 20px;
+
 }
 
 .participate-button {
@@ -99,7 +99,7 @@
     }
     .video-container video {
         width: 100%; 
-        height: 250px;
+        height: 300px;
     }
 
     .lista-clientes {

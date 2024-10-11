@@ -64,7 +64,7 @@ export default function Countdown() {
             <img src="/marca-de-verificacao.png" alt="Icon" className="icon" /> Certificado
           </li>
           <li>
-            <img src="/marca-de-verificacao.png" alt="Icon" className="icon" /> Coffee break e Almoço
+            <img src="/marca-de-verificacao.png" alt="Icon" className="icon" /> Coffee break
           </li>
           <li>
             <img src="/marca-de-verificacao.png" alt="Icon" className="icon" /> Networking Estratégico
