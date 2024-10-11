@@ -13,17 +13,17 @@ const Clientes: React.FC = () => {
           entre outras. A Garden Hair também está em mais 22 países, e o Garden
           Day já se tornou um evento anual em Portugal. 🇵🇹
           <br />
-          <br /> O último Garden Day aconteceu em Guarulhos-SP e agora chegou a vez de Altamira-PA.
-          
-          
+          <br /> O último Garden Day aconteceu em Guarulhos-SP e agora chegou a
+          vez de Altamira-PA.
         </p>
+        </div>
         <div className="lista-clientes">
-        <div className="video-container">
-        <video  controls>
-          <source src="/garday-guarulhos.mp4" type="video/mp4" />
-          Seu navegador não suporta o elemento de vídeo.
-        </video>
-      </div>
+          <div className="video-container">
+            <video controls>
+              <source src="/garday-guarulhos.mp4" type="video/mp4" />
+              Seu navegador não suporta o elemento de vídeo.
+            </video>
+          </div>
           <img src="/treinamentos2.jpeg" alt="Cliente 1" />
           <img src="/treinamentos3.jpeg" alt="Cliente 2" />
         </div>
@@ -37,9 +37,7 @@ const Clientes: React.FC = () => {
             Comprar Agora
           </a>
         </div>
-      </div>
-
-    
+      
     </section>
   );
 };
