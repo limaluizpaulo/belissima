@@ -22,33 +22,31 @@
 .descricao-evento {
     font-size: 1.2rem;
     color: black;
-    max-width: 50%;
     text-align: left;
     padding: 10px;
 }
 
 .video-container {
-    width: 50%; 
     justify-content: center;
 }
 
 .video-container video {
     width: 100%; 
-    height: 450px;
+    height: 230px;
     border-radius: 10px;
 }
 
 .lista-clientes {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: row;
-    gap: 10px;
+
     margin-top: 20px;
 }
 
 .lista-clientes img {
-    width: 100%;
+    width: 230px;
     height: 230px;
     border-radius: 10px;
 }
