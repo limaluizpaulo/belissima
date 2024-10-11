@@ -63,8 +63,11 @@
 }
 
 @media (max-width: 768px) {
-  .main-title {
+  .main-description {
     font-size: 18px;
+  }
+  .main-title {
+    font-size: 16px;
     width: 100%;
   }
 
@@ -79,8 +82,11 @@
 }
 
 @media (max-width: 480px) {
+  .main-description {
+    font-size: 14px;
+  }
   .main-title {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .main-video {

@@ -12,6 +12,7 @@ import Countdown from "@/components/countdown/Countdown";
 import EventInfo from "@/components/eventInfo/EventInfo";
 import EventDetails from "@/components/eventDetails/EventDetails";
 import MainSection from "@/components/mainSection/mainSection";
+import Tecnicos from "@/components/tecnicos/tecnicos";
 
 export default function Home() {
   return (
@@ -31,8 +32,9 @@ export default function Home() {
       <EventInfo />
 
       <Clientes />
+       <Tecnicos />
       <EventDetails />
-
+       
       <Countdown />
       <Footer />
       {/*         

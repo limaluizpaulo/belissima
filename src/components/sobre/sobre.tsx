@@ -3,10 +3,10 @@ import "./style.css";
 
 const Sobre: React.FC = () => {
   return (
-    <div id="about-section" className="container">
+    <div  className="container">
       <div className="imageContainer">
         <img
-          src="/sobremimsemfundo.jpeg"
+          src="/logo.png"
           alt="Minha Imagem"
           className="image"
         />
