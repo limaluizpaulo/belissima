@@ -36,6 +36,7 @@
 .title-invest {
   color: #fff;
   font-size: 30px;
+
 }
 
 .timer {
@@ -71,7 +72,17 @@
   padding: 0;
   font-size: 18px;
 }
+.investment-details{
+  list-style: none;
+  padding: 0;
+  font-size: 14px;
+  color: #fff;
 
+  em{
+    font-size: 12px;
+   color:  rgb(232, 160, 103);
+  }
+}
 .event-details li {
   margin-bottom: 10px;
   display: flex;
@@ -85,12 +96,12 @@
   height: 20px;
 }
 
-.right-section .offer-text {
+.right-section {
   font-size: 18px;
   color: rgb(232, 160, 103);
   margin-bottom: 10px;
   font-weight: 600;
-  text-align: center; /* Centraliza o texto */
+  text-align: center; 
 }
 
 .divider {
@@ -120,7 +131,11 @@
   color: #fff;
 }
 
-/* Responsividade para telas menores */
+
+.offer-text {
+  font-size: 18px;
+}
+
 @media (max-width: 1200px) {
   .countdown-container {
     flex-direction: column;
@@ -133,21 +148,22 @@
     margin-left: 0;
   }
 
-  .offer-text {
-    font-size: 16px;
-  }
 
   .title-gardenday {
     font-size: 25px;
   }
-  .title-invest {
-    margin-top: 50px;
-  }
+
 
   .time-title {
+    font-size: 12px;
+  }
+  .title-invest{
+    font-size: 25px;
+    margin-top: 20px;
+  }
+  .offer-text{
     font-size: 16px;
   }
-
   .time-value {
     font-size: 20px;
   }
@@ -170,13 +186,16 @@
 
   .time-title {
     margin-top: 0px;
-    font-size: 12px;
+    font-size: 8px;
   }
 
   .time-value {
     font-size: 16px;
   }
-
+ 
+  .offer-text {
+    font-size: 12px;
+  }
   .participate-button {
     font-size: 16px;
     padding: 10px 20px;

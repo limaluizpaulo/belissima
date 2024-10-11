@@ -70,7 +70,7 @@ export default function Countdown() {
             <img src="/marca-de-verificacao.png" alt="Icon" className="icon" /> Networking Estratégico
           </li>
           <li>
-            <img src="/marca-de-verificacao.png" alt="Icon" className="icon" /> Kit Profissional Cotton de brinde
+            <img src="/marca-de-verificacao.png" alt="Icon" className="icon" /> Kit home care
           </li>
         </ul>
       </div>
@@ -80,6 +80,11 @@ export default function Countdown() {
         <p className="offer-text">
           Oferta especial e exclusiva, por tempo limitado!
         </p>
+        <div className="investment-details">
+          <h2><strong>R$ 350,00 à vista</strong></h2>
+          <p><strong>R$ 380,00 parcelado em até <br></br> 3 vezes no cartão</strong></p>
+          <p><em>Ganhe descontos exclusivos indicando amigos!</em></p>
+        </div>
         <div className="divider"></div>
         <a
           href="https://wa.me/559392278870"

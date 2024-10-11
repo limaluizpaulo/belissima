@@ -1,56 +1,119 @@
 .clientes {
-    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
     background-color: white;
     width: 100%;
     height: auto;
-    padding-bottom:  50px;
+    padding: 20px;
+    flex-wrap: wrap;
 }
 
 .titulo-clientes {
     font-size: 2rem;
     color: black;
+    width: 100%;
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    text-decoration: uppercase;
+    text-transform: uppercase;
+}
+
+.descricao-evento {
+    font-size: 1.2rem;
+    color: black;
+    max-width: 50%;
+    text-align: left;
+    padding: 10px;
+}
+
+.video-container {
+    width: 50%; 
+    justify-content: center;
+}
+
+.video-container video {
+    width: 100%; 
+    height: 450px;
+    border-radius: 10px;
 }
 
 .lista-clientes {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px;
 }
 
-.caixa-clientes {
-    flex: 1;
-    text-align: center;
-    padding: 20px;
+.lista-clientes img {
     width: 100%;
-
+    height: 230px;
+    border-radius: 10px;
 }
 
-.caixa-clientes img {
-    width: 350px;
-    height: 350px;
-    margin-bottom: 10px;
-    border-radius: 30px;
+.botoes-compra {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
 }
 
+.participate-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
 
+.participate-button:hover {
+    background-color: #218838;
+}
 
+/* Responsividade */
+@media (max-width: 1240px){
+    .clientes {
+        flex-direction: column;
+        align-items: center;
+    }
+    .lista-clientes img {
+        width: 230px;
+        height: 210px;
+    }
+}
 @media (max-width: 768px) {
-    .lista-clientes {
+    .clientes {
         flex-direction: column;
         align-items: center;
     }
 
-    .caixa-clientes {
-        margin-bottom: 0;
+    .descricao-evento {
+        max-width: 100%;
+        text-align: center;
+        font-size: 16px;
     }
 
-    .caixa-clientes img {
-        width: 100%;
-        height: unset;
-        border-radius: unset;
-        margin-bottom: unset;
+    .video-container {
+        max-width: 100%;
+        margin: 0;
+    }
+    .video-container video {
+        width: 100%; 
+        height: 250px;
+    }
+
+    .lista-clientes {
+        flex-direction: column;
+      
+    }
+    .lista-clientes img {
+        width: 220px;
+        height: 170px;
+    }
+  
+    .botoes-compra {
+        justify-content: center;
     }
 }

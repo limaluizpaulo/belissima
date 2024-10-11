@@ -29,14 +29,15 @@ const Footer: React.FC = () => {
             <li>
               <a href="#hero-section">Início</a>
             </li>
-            <li>
-              <a href="#about-section">Sobre</a>
-            </li>
+           
             <li>
               <a href="#event-overview">Informações do Evento</a>
             </li>
             <li>
-              <a href="#trainings">Treinamentos</a>
+              <a href="#trainings">Garden Day</a>
+            </li>
+            <li>
+              <a href="#about-section">Técnicos</a>
             </li>
             <li>
               <a href="#event-details">O que vai ter neste Evento?</a>
